@@ -1397,8 +1397,8 @@ mouseLoc = [NSEvent mouseLocation]; //_____________________________________mouse
 //==============================================
 //&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 //==============================================   
-CGEventRef ourEvent = CGEventCreate(NULL);
-CGPoint point = CGEventGetLocation(ourEvent);
+//CGEventRef ourEvent = CGEventCreate(NULL);
+//CGPoint point = CGEventGetLocation(ourEvent);
 //NSLog(@"Location? x= %f, y = %f", (float)point.x, (float)point.y);//_______This is also global screen space but starting from the TOP_LEFT
 //==============================================
 //&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&

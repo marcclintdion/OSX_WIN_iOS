@@ -306,7 +306,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				New_Setting = "";
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = "";
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -320,7 +320,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				New_Setting = "";
-				SDKROOT = "";
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
